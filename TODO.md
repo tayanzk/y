@@ -1,0 +1,12 @@
+# Y_VERSION "1.0"
+ - Replace linked lists with dynamic arrays (`sdk/buf.h`)
+ - Ability to push/pop nodes
+ - Serializable
+ - Parameterized notes
+ - String interning
+ - Arrays `node { array [ 1, 2, 3 ] }`
+ - Disallow duplicate names in the same node
+ - Use hashes to speed up `y_find`
+ - Cache nodes by path hashes
+ - `fatal_at` shouldn't crash
+ - Use SDK custom allocators
